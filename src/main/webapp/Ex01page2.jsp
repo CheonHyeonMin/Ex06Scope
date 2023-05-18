@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<%
+		String nick = (String)pageContext.getAttribute("nickname");
+	%>
+	
+	<%=nick %>
+	${nickname }
 </body>
 </html>
